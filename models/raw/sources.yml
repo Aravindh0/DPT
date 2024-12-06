@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: sales
+    database: salesdata
+    schema: sales
+    tables:
+      - name: customers
+      - name: orders
+  - name: purchases
+    database: salesdata
+    schema: purchases
+    tables:
+      - name: payment
