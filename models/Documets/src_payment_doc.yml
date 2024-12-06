@@ -1,0 +1,9 @@
+version: 2
+models:
+  - name: src_payment
+    description: All datas are joined to get the payment
+    columns:
+      - name: CUSTOMER_ID
+        description: The customers who have made orders
+      - name: STATUS
+        description: '{{doc("status")}}'

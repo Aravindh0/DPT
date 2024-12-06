@@ -48,6 +48,7 @@ select
     NO_OF_ORDERS, 
     FIRST_ORDER_DATE, 
     RECENT_ORDER_DATE, 
-    TOTAL_PURCHASE_AMOUNT
+    TOTAL_PURCHASE_AMOUNT,
+    STATUS
 from 
     final
