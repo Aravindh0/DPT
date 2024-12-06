@@ -6,6 +6,16 @@ sources:
     tables:
       - name: customers
       - name: orders
+        columns:
+          - name: STATUS
+            tests:
+              - accepted_values:
+                  values:
+                    - 'returned'
+                    - 'completed'
+                    - 'return_pending'
+                    - 'shipped'
+                    - 'placed'
   - name: purchases
     database: salesdata
     schema: purchases
